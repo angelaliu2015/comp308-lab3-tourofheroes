@@ -15,7 +15,6 @@
     "pretest:once": "npm run build",
     "test:once": "karma start karma.conf.js --single-run",
     "lint": "tslint ./src/**/*.ts -t verbose",
-
     "build:upgrade": "tsc",
     "serve:upgrade": "http-server",
     "build:cli": "ng build --no-progress",
@@ -28,7 +27,6 @@
     "build:babel": "babel src -d src --extensions \".es6\" --source-maps",
     "copy-dist-files": "node ./copy-dist-files.js",
     "i18n": "ng-xi18n",
- 
     "ng": "ng",
     "start": "http-server",
     "build": "ng build",
@@ -56,6 +54,10 @@
     "rxjs": "5.0.1",
     "systemjs": "0.19.39",
     "zone.js": "^0.7.4"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
   },
   "devDependencies": {
     "@angular/cli": "^1.0.0-rc.1",
