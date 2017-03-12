@@ -56,8 +56,8 @@
     "zone.js": "^0.7.4"
   },
   "engines": {
-    "node": ">=6.0.0",
-    "npm": ">=3.5.0"
+    "node": "7.4.0",
+    "npm": "4.4.1"
   },
   "devDependencies": {
     "@angular/cli": "^1.0.0-rc.1",
